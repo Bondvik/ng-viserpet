@@ -4,6 +4,7 @@ import { FormsModule }   from '@angular/forms';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MenubarModule} from 'primeng/menubar';
 import { InputTextModule } from 'primeng/inputtext';
+import { SlideMenuModule } from 'primeng/slidemenu';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -13,6 +14,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
+import { PromoComponent } from './components/promo/promo.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,8 @@ import { HeaderComponent } from './components/header/header.component';
     ContactComponent,
     BlogComponent,
     HomeComponent,
-    HeaderComponent
+    HeaderComponent,
+    PromoComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +33,8 @@ import { HeaderComponent } from './components/header/header.component';
     BrowserAnimationsModule,
     AppRoutingModule,
     MenubarModule,
-    InputTextModule
+    InputTextModule,
+    SlideMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
