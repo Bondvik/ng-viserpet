@@ -15,6 +15,7 @@ import { BlogComponent } from './components/blog/blog.component';
 import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { PromoComponent } from './components/promo/promo.component';
+import { TrendingComponent } from './components/trending/trending.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { PromoComponent } from './components/promo/promo.component';
     BlogComponent,
     HomeComponent,
     HeaderComponent,
-    PromoComponent
+    PromoComponent,
+    TrendingComponent
   ],
   imports: [
     BrowserModule,
