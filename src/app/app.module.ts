@@ -5,6 +5,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MenubarModule} from 'primeng/menubar';
 import { InputTextModule } from 'primeng/inputtext';
 import { SlideMenuModule } from 'primeng/slidemenu';
+import {TabViewModule} from 'primeng/tabview';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -16,6 +17,7 @@ import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { PromoComponent } from './components/promo/promo.component';
 import { TrendingComponent } from './components/trending/trending.component';
+import { ArrivalsComponent } from './components/arrivals/arrivals.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,8 @@ import { TrendingComponent } from './components/trending/trending.component';
     HomeComponent,
     HeaderComponent,
     PromoComponent,
-    TrendingComponent
+    TrendingComponent,
+    ArrivalsComponent
   ],
   imports: [
     BrowserModule,
@@ -36,7 +39,8 @@ import { TrendingComponent } from './components/trending/trending.component';
     AppRoutingModule,
     MenubarModule,
     InputTextModule,
-    SlideMenuModule
+    SlideMenuModule,
+    TabViewModule
   ],
   providers: [],
   bootstrap: [AppComponent]
