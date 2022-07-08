@@ -13,6 +13,7 @@
 	--color-bg: #F8FBFF;
 	--color-white: #FFFFFF;
   --color-lightgray: #bdbdbd;
+  --color-bg-timer: #F2EDED;
 }
 
 
@@ -598,6 +599,78 @@ body {
   box-shadow: none;
 }
 
+/*---------------------------------------*/
+
+/* Timer */
+
+.main__timer {
+  background-color: var(--color-bg-timer);
+  margin-bottom: 100px;
+}
+
+.page-timer__row {
+  display: flex;
+}
+
+.page-countdown__row {
+  display: flex;
+  margin-bottom: 53px;
+}
+
+.page-countdown {
+  max-width: 585px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+.page-countdown__header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.page-countdown__price {
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.3;
+  color: var(--color-primary);
+  margin-bottom: 55px;
+}
+
+.page-countdown__price span {
+  text-decoration-line: line-through;
+  color: var(--color-text02);
+}
+
+.page-countdown__title {
+  margin-bottom: 10px;
+}
+
+.p-knob-range {
+  stroke: rgba(101, 61, 63, 0.2);
+}
+
+.p-knob-value {
+  stroke: var(--color-primary);
+}
+
+.page-countdown__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
 
 @media only screen and (max-width: 961px) {
   .p-menubar .p-menubar-root-list {

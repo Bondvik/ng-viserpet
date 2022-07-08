@@ -7,6 +7,7 @@ import { InputTextModule } from 'primeng/inputtext';
 import { SlideMenuModule } from 'primeng/slidemenu';
 import {TabViewModule} from 'primeng/tabview';
 import {CarouselModule} from 'primeng/carousel';
+import {KnobModule} from 'primeng/knob';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -20,6 +21,7 @@ import { PromoComponent } from './components/promo/promo.component';
 import { TrendingComponent } from './components/trending/trending.component';
 import { ArrivalsComponent } from './components/arrivals/arrivals.component';
 import { ReviewsComponent } from './components/reviews/reviews.component';
+import { TimerComponent } from './components/timer/timer.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +35,8 @@ import { ReviewsComponent } from './components/reviews/reviews.component';
     PromoComponent,
     TrendingComponent,
     ArrivalsComponent,
-    ReviewsComponent
+    ReviewsComponent,
+    TimerComponent
   ],
   imports: [
     BrowserModule,
@@ -44,7 +47,8 @@ import { ReviewsComponent } from './components/reviews/reviews.component';
     InputTextModule,
     SlideMenuModule,
     TabViewModule,
-    CarouselModule
+    CarouselModule,
+    KnobModule
   ],
   providers: [],
   bootstrap: [AppComponent]
