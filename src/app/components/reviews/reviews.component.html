@@ -1,0 +1,17 @@
+<section class="main__reviews page-reviews">
+  <p-carousel [value]="reviews" [showNavigators]="false">
+    <ng-template let-review pTemplate="item">
+      <div class="card-review__row">
+        <div class="card-review__img">
+          <img src="{{review.img}}">
+        </div>
+        <div class="card-review__content">
+          <cite class="card-review__author">Dianne Russell</cite>
+          <p class="card-review__profession">Customer</p>
+          <p class="card-review__text">{{ review.text }}</p>
+        </div>
+      </div>
+    </ng-template>
+  </p-carousel>
+</section>
+
