@@ -22,6 +22,9 @@ import { TrendingComponent } from './components/trending/trending.component';
 import { ArrivalsComponent } from './components/arrivals/arrivals.component';
 import { ReviewsComponent } from './components/reviews/reviews.component';
 import { TimerComponent } from './components/timer/timer.component';
+import { LatestNewsComponent } from './components/latest-news/latest-news.component';
+import { ServiceComponent } from './components/service/service.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +39,10 @@ import { TimerComponent } from './components/timer/timer.component';
     TrendingComponent,
     ArrivalsComponent,
     ReviewsComponent,
-    TimerComponent
+    TimerComponent,
+    LatestNewsComponent,
+    ServiceComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
