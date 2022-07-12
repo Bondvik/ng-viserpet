@@ -914,7 +914,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 306px;
-  padding: 0 50px 0 80px;
+  align-items: center;
 }
 
 .footer-menu__column:not(:last-child) {
@@ -963,6 +963,40 @@ body {
 
 .payment-list__item:not(:last-child) {
   margin-right: 8px;
+}
+
+.footer-form {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.footer-form__input {
+  background-color: var(--color-white);
+  border-radius: 28.5px;
+  padding: 16px 9px 11px 20px;
+  width: 100%;
+}
+
+.footer-form__input::placeholder {
+  text-transform: capitalize;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--color-text02);
+}
+
+.footer-form__button {
+  position: absolute;
+  top: 5px;
+  right: 8px;
+  width: 64px;
+  height: 39px;
+  padding: 9px 21px;
+}
+
+.footer-menu__subscribe {
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--color-text02);
 }
 
 @media only screen and (max-width: 961px) {
